@@ -3,7 +3,6 @@ import { Text, View } from 'react-native';
 import { Icon } from 'native-base';
 import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-import { createStackNavigator } from '@react-navigation/stack';
 import Home from './page/Home'
 import Category from './page/Category'
 import Cart from './page/Cart'
