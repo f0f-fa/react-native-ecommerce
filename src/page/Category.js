@@ -53,58 +53,7 @@ export default function Category({navigation}) {
   );
 }
 
-// export default class Category extends React.Component {
-//   state = {
-//     isLoading: true,
-//     data: [],
-//   }
-//   async componentDidMount() {
-//     try {
-//       const response = await fetch(url)
-//       const data = await response.json()
-//       this.setState({
-//         isLoading: false,
-//         data: data})
-//     } catch (error) {
-//       console.log(error);
-//     }
-//   }
-//
-//   _renderItem = ({item}) => (
-//     <TouchableOpacity
-//       onPress={() => {
-//         alert('You tapped the button!');
-//       }}
-//     >
-//       <Text>{item.name}</Text>
-//     </TouchableOpacity>
-//   );
-//
-//   render() {
-//     if (this.state.isLoading) {
-//       return (
-//         <View styles={[styles.container]}>
-//           <ActivityIndicator size="large" animating />
-//         </View>
-//       );
-//     } else {
-//       // let catalog = this.state.data.map((val, key) => {
-//       //   console.log(val, key);
-//           return (
-//             <View>
-//               <FlatList
-//                 data={this.state.data}
-//                 renderItem={this._renderItem}
-//                 keyExtractor={(item, index) => index}
-//               />
-//             </View>
-//           );
-//       // });
-//       // return <ScrollView>{catalog}</ScrollView>;
-//
-// }
-// }
-// }
+
 
 const styles = StyleSheet.create({
   container: {
